@@ -1,0 +1,90 @@
+<!--comments found inline are both comments for myself and assessor to understand thought process behind using certain tools and utilities-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Loved+by+the+King&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- This is a HTML comment  -->
+    <!-- The title field is the text on the tab in your browser -->
+    <title>Ephaxia Painting</title>
+  </head>
+  <body>
+    <nav>
+      <div class="mobile">
+        <div class="title">Ephaxia</div>
+        <button class="hamburger" onclick="toggleHamburger()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="menu" id="menu">
+        <a href="/index.html">Home</a>
+        <a href="/signUp.html">Sign Up</a>
+
+        <a href="/contact.html">Contact</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/process.html">Process</a>
+        <a href="/reviews.html">Reviews</a>
+      </div>
+    </nav>
+
+    <section>
+      <div class="header">
+        <img src="../artwork/Logo1.jpg" alt="Ephaxia Designs mountains logo" />
+        <div class="header-inset">
+          <h1>Ephaxia Designs</h1>
+          <h6>Hand painted custom cycling shoes</h6>
+        </div>
+      </div>
+
+      <!-- div tag is your bread and butter for just grouping elements together -->
+      <div class="main">
+        <p>
+          Welcome to Ephaxia Designs, the place for custom painted cycling
+          shoes
+        </p>
+        <p>
+          I paint as a hobby, and enjoy it so much, as it gives me the
+          opportuity to be creative and produce custom artworks for each client.
+        </p>
+        <p>
+          On this website you'll find a portfolio of my works, along with some
+          works I'd like to collaborate and produce.
+        </p>
+        <p>
+          Should you like what's on show, or think I could possibly design your
+          next set of shoes, get in touch using the contact page and lets have a
+          chat
+        </p>
+        <p>- Matt</p>
+      </div>
+    </section>
+    <section>
+      <div class="site-info" data-content-field="business-information">
+        <div class="site-address">HANDPAINTED DESIGNS</div>
+        <div class="site-city-state">CHESTER, ENGLAND</div>
+        <div class="site-email">Ephaxia@outlook.com</div>
+      </div>
+    </section>
+
+    <!-- Script tags always live at the bottom of the body -->
+    <!-- This is because if we are targeting html with js then it will only happen after the html has loaded -->
+    <!-- following step by step instructions for installing firebase in a webapp Link found below.-->
+    <!-- https://firebase.google.com/docs/web/setup?authuser=1#from-hosting-urls -->
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="/__/firebase/7.14.1/firebase-app.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="/__/firebase/7.14.1/firebase-auth.js"></script>
+    
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

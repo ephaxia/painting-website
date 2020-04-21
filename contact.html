@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link  href="https://fonts.googleapis.com/css?family=Loved+by+the+King&display=swap"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav>
+      <div class="mobile">
+        <div class="title">🏔 Ephaxia</div>
+        <button class="hamburger" onclick="toggleHamburger()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="menu" id="menu">
+        <a href="/index.html">Home</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/process.html">Process</a>
+        <a href="/reviews.html">Reviews</a>
+      </div>
+    </nav>
+    <section>
+      <div>If you wish to mke an enquiry, please fill in the contact form below.
+         Alternatively, you can email me directly at :Ephaxia@outlook.com
+      </div>
+      <div>I aim to reply to all emails within 48 hours, however, if I'm currently busy with studies, or away, an automated reply will be in place to give you an estimated date of reply.</div>
+      <div>Should you want to stay updated with my work, feel free to follow my instagram page: @Ephaxia</div>
+    </section>
+    <!-- Insert what you want here -->
+    <section>
+      <!-- form for submitting a query-->
+      <form action="" method="post">
+        <label for="name">Name*</label>
+        <input type="name" name="name" required />
+        <br />
+        <label for="email">Email*<address></address></label>
+        <input type="email" placeholder="Example@email.com" name="email" required />
+        <br />
+        <label for="query">Message</label>
+        <input type="query" placeholder="Type your message here..." name="query" required />
+        <!-- br drops to a new line -->
+        <br />
+        <label for="check">Tick this box if #</label>
+        <input type="checkbox" name="check" />
+        <br />
+        <button type="submit">Send</button>
+
+      </form>      
+<!--<script> put javascript code in here for submitting form to correct place </script>-->
+
+        <br />
+      </form>
+    </section>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>

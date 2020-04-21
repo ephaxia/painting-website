@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/style.css" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body>
+  <nav>
+    <div class="mobile">
+      <div class="title">Ephaxia</div>
+      <button class="hamburger" onclick="toggleHamburger()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="menu" id="menu">
+      <a href="/index.html">Home</a>
+      <a href="/login.html">Login</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/portfolio.html">Portfolio</a>
+      <a href="/process.html">Process</a>
+      <a href="/reviews.html">Reviews</a>
+    </div>
+  </nav>
+
+  <form id="signUpForm">
+    <label>Email:</label>
+    <input type="text" name="email" />
+    <label>Password:</label>
+    <input type="password" name="password" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="./scripts/script.js"></script>
+
+</body>
+</html>
